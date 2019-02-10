@@ -1,0 +1,33 @@
+{
+  "name": "ios-apns-function",
+  "version": "1.0.0",
+  "description": "Lambda function to forward push notifications to APNs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubsystems/ios-apns-function.git"
+  },
+  "author": "Erik Koebke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubsystems/ios-apns-function/issues"
+  },
+  "homepage": "https://github.com/kubsystems/ios-apns-function#readme",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "esparse": "^0.6.11",
+    "express": "^4.16.4",
+    "serverless": "^1.37.1",
+    "serverless-http": "^1.9.0"
+  },
+  "devDependencies": {
+    "apn": "^2.2.0",
+    "esparse": "^0.6.11",
+    "express": "^4.16.4",
+    "serverless": "^1.37.1",
+    "serverless-http": "^1.9.0"
+  }
+}
