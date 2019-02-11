@@ -1,0 +1,11 @@
+{
+    "resource": "/",
+    "path": "/",
+    "httpMethod": "GET",
+    "headers": { 
+        "Content-Type": "application/json"
+    },
+    "body": {
+        "apn-data": "theData!"
+    }
+  }

@@ -18,14 +18,13 @@
   "homepage": "https://github.com/kubsystems/ios-apns-function#readme",
   "dependencies": {
     "apn": "^2.2.0",
-    "esparse": "^0.6.11",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
     "serverless": "^1.37.1",
     "serverless-http": "^1.9.0"
   },
   "devDependencies": {
     "apn": "^2.2.0",
-    "esparse": "^0.6.11",
     "express": "^4.16.4",
     "serverless": "^1.37.1",
     "serverless-http": "^1.9.0"

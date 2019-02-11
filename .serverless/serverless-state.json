@@ -106,7 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ios-apns-function/dev/1549832008554-2019-02-10T20:53:28.554Z/ios-apns-function.zip"
+                "S3Key": "serverless/ios-apns-function/dev/1549844212314-2019-02-11T00:16:52.314Z/ios-apns-function.zip"
               },
               "FunctionName": "ios-apns-function-dev-ios-apns-function",
               "Handler": "index.handler",
@@ -125,14 +125,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "IosDashapnsDashfunctionLambdaVersionK7ljmGRFosK7mhAt40D9EGI6D4E0Z1W09RniwvZXI": {
+          "IosDashapnsDashfunctionLambdaVersionpPx1TcZ60mooPlw0GHoA7tZqDLKzC14F63PMPhKwtTw": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "IosDashapnsDashfunctionLambdaFunction"
               },
-              "CodeSha256": "c9HUknh/Vn3R90LqJ1SQgtD08UoCFaX7JVgaOa4CBz0="
+              "CodeSha256": "8S0GUzpGKrBaECrlQZmSpBkpfL/g6wW7iUFB7nyvDf8="
             }
           },
           "ApiGatewayRestApi": {
@@ -250,7 +250,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1549832008657": {
+          "ApiGatewayDeployment1549844212416": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -320,7 +320,7 @@
           "IosDashapnsDashfunctionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "IosDashapnsDashfunctionLambdaVersionK7ljmGRFosK7mhAt40D9EGI6D4E0Z1W09RniwvZXI"
+              "Ref": "IosDashapnsDashfunctionLambdaVersionpPx1TcZ60mooPlw0GHoA7tZqDLKzC14F63PMPhKwtTw"
             }
           },
           "ServiceEndpoint": {
@@ -386,7 +386,7 @@
     "artifact": "/Users/erikkoebke/Projects/kub-systems/innovation/ios-apns-function/.serverless/ios-apns-function.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/ios-apns-function/dev/1549832008554-2019-02-10T20:53:28.554Z",
+    "artifactDirectoryName": "serverless/ios-apns-function/dev/1549844212314-2019-02-11T00:16:52.314Z",
     "artifact": "ios-apns-function.zip"
   }
 }
